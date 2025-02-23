@@ -1,6 +1,7 @@
 // C program for arithmetic operations using switch case
 
 #include <stdio.h>
+
 int main()
 {
     int operation, a=10, b=20, c;
@@ -15,23 +16,23 @@ int main()
     switch (operation)
     {
         case 1:
-            printf("%d + %d = %d", a, b, a+b);
+            printf("\n%d + %d = %d", a, b, a+b);
             break;
         case 2:
-            printf("%d +%d = %d", a, b, a-b);
+            printf("\n%d +%d = %d", a, b, a-b);
             break;
         case 3:
-            printf("%d * %d = %d", a, b, a*b);
+            printf("\n%d * %d = %d", a, b, a*b);
             break;
         case 4:
-            printf("%d / %d = %d", a, b, a/b);
+            printf("\n%d / %d = %d", a, b, a/b);
             break;
         case 5:
-            printf("%d %% %d = %f", a, b, a%b);
+            printf("\n%d %% %d = %f", a, b, a%b);
             break;
         default:
-            printf("input invalid");
+            printf("\ninput invalid");
             break;
     }
-    return(0);
+    return 0;
 }

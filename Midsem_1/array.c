@@ -14,6 +14,6 @@ int main()
     {
         sum = sum + number[i];
     }
-    printf("Sum is %d", sum);
+    printf("\nSum is %d", sum);
     return(0);
  }

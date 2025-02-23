@@ -7,11 +7,11 @@ int main()
     int i;
     for (i=1; i<6; i++)
     {
-        printf("Enter marks for subject %d :", i);
+        printf("\nEnter marks for subject %d :", i);
         scanf("%f", &sub);
-        total = total +sub;
+        total = total + sub;
     }
     percentage = (total/500)*100;
-    printf("Your Percentage is %f", percentage);
-    return(0);
+    printf("\nYour Percentage is %f", percentage);
+    return 0;
 } 
